@@ -6,28 +6,43 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 function Header() {
   return (
     <div className="header">
-      <img
-        className="header_logo"
-        src="https://down.imgspng.com/download/0720/amazon_PNG25.png"
-      />
+      <img className="header_logo" src="twellerlogo.png" />
       <div className="header_search">
         <input className="header_searchInput" type="text" />
         <SearchIcon className="header_searchIcon" />
       </div>
       <div className="header_nav">
         <div className="header_option">
-          <span className="header_optionLineOne">Hello Client</span>
+          <span className="header_optionLineOne">
+            <br />
+          </span>
           <span className="header_optionLineTwo">Sign In</span>
         </div>
         <div className="header_option">
-          <span className="header_optionLineOne">Returns</span>
-          <span className="header_optionLineTwo">& Orders</span>
+          <span className="header_optionLineOne">
+            <br />
+          </span>
+          <span className="header_optionLineTwo">Designs</span>
         </div>
         <div className="header_option">
-          <span className="header_optionLineOne">Your</span>
-          <span className="header_optionLineTwo">Prime</span>
+          <span className="header_optionLineOne">
+            <br />
+          </span>
+          <span className="header_optionLineTwo">About</span>
         </div>
         <div className="header_option">
+          <span className="header_optionLineOne">
+            <br />
+          </span>
+          <span className="header_optionLineTwo">Contact</span>
+        </div>
+        <div className="header_option">
+          <span className="header_optionLineOne">
+            <br />
+          </span>
+          <span className="header_optionLineTwo">Blog</span>
+        </div>
+        <div className="header_optionBasket">
           <ShoppingBasketIcon />
           <span className="header_optionLineTwo header_basketCount">0</span>
         </div>
